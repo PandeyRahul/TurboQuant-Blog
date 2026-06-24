@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Files to be ignored by Dev
+data/
+index/
+ragas_results.csv
