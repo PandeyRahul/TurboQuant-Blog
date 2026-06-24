@@ -6,10 +6,11 @@ quantized TurboQuant vector index** for fast retrieval and **Gemma 3 (via Ollama
 for generation, and it runs comfortably on a modest **Windows machine with a 4GB
 GPU (tested on an RTX 3050)**.
 
-This project started as Mac-only [MLX](https://github.com/ml-explore/mlx) code and
-was re-built to run cross-platform on Ollama. It also ships with its own
-**speed benchmark** and a **RAGAS quality-evaluation suite**, so the claims here are
-measured, not assumed.
+This project started as Mac-only [MLX](https://github.com/ml-explore/mlx) code —
+inspired by [*Gemma 4 12B + TurboQuant + MTP RAG*](https://medium.com/data-science-collective/gemma-4-12b-turboquant-mtp-rag-better-ocr-self-hosted-c2cc587bea10)
+on the Data Science Collective — and was re-built to run cross-platform on Ollama.
+It also ships with its own **speed benchmark** and a **RAGAS quality-evaluation
+suite**, so the claims here are measured, not assumed.
 
 ---
 
@@ -224,6 +225,7 @@ You may be loading a model larger than your VRAM. Use `gemma3:4b` on a 4GB GPU.
 
 ## 🙏 Credits & further reading
 
+- **Inspired by** [*Gemma 4 12B + TurboQuant + MTP RAG — Better OCR, Self-Hosted*](https://medium.com/data-science-collective/gemma-4-12b-turboquant-mtp-rag-better-ocr-self-hosted-c2cc587bea10) (Data Science Collective) — the article that kicked this off.
 - [TurboQuant / turbovec](https://pypi.org/project/turbovec/) — quantized vector index
 - [Ollama](https://ollama.com) — local model runtime
 - [Gemma 3](https://ai.google.dev/gemma) — Google's open models
